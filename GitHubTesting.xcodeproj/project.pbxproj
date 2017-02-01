@@ -12,6 +12,7 @@
 		D613ED9A1E42A8E9006B1EED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D613ED981E42A8E9006B1EED /* Main.storyboard */; };
 		D613ED9C1E42A8E9006B1EED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D613ED9B1E42A8E9006B1EED /* Assets.xcassets */; };
 		D613ED9F1E42A8E9006B1EED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D613ED9D1E42A8E9006B1EED /* LaunchScreen.storyboard */; };
+		D613EDA81E42AC91006B1EED /* GreatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D613EDA71E42AC91006B1EED /* GreatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D613ED9B1E42A8E9006B1EED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D613ED9E1E42A8E9006B1EED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D613EDA01E42A8E9006B1EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D613EDA71E42AC91006B1EED /* GreatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		D613ED931E42A8E9006B1EED /* GitHubTesting */ = {
 			isa = PBXGroup;
 			children = (
+				D613EDA61E42AC6C006B1EED /* New Feature */,
 				D613ED941E42A8E9006B1EED /* AppDelegate.swift */,
 				D613ED961E42A8E9006B1EED /* ViewController.swift */,
 				D613ED981E42A8E9006B1EED /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				D613EDA01E42A8E9006B1EED /* Info.plist */,
 			);
 			path = GitHubTesting;
+			sourceTree = "<group>";
+		};
+		D613EDA61E42AC6C006B1EED /* New Feature */ = {
+			isa = PBXGroup;
+			children = (
+				D613EDA71E42AC91006B1EED /* GreatView.swift */,
+			);
+			name = "New Feature";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D613EDA81E42AC91006B1EED /* GreatView.swift in Sources */,
 				D613ED971E42A8E9006B1EED /* ViewController.swift in Sources */,
 				D613ED951E42A8E9006B1EED /* AppDelegate.swift in Sources */,
 			);
